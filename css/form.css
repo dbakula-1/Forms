@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* form styling */
+#wrapper {
+	width: 60%;
+	margin-left: 4%;
+}
+
+div#formcol1 {
+	float: left;	
+	width: 100%;
+}
+
+label {
+    margin-right: .3em;
+    width: 6.3em;
+    display: inline-block;
+    text-align: right;
+}
+
+#formcol1 li {
+    list-style: none;
+}
+
+#formcol1 input[type="text"] {
+    background: #FF9;
+}
+
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: #BB3D2F !important;
+}
+
+/* Fixes the radio button labels after the main labels are right-aligned */
+#multchoice label {
+    width: auto;
+    text-align: left;
+    margin-right: 1em;
+}
+
+#multchoice span {
+    margin-right: 1em;
+}
+
+fieldset {
+    margin-bottom: 1em;
+}
+
+/* end of form css */
